@@ -1,0 +1,845 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2867
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\froman\fcharset0 Times-Roman;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;}
+{\*\expandedcolortbl;;\cssrgb\c0\c0\c0;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww28260\viewh15700\viewkind0
+\deftab720
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs24 \cf0 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 <!doctype html>\
+<html lang="ms">\
+<head>\
+  <meta charset="utf-8" />\
+  <meta name="viewport" content="width=device-width,initial-scale=1" />\
+  <title>Dashboard Bulan Puasa 2026 (Malaysia)</title>\
+  <style>\
+    :root\{\
+      --bg:#0b1220;\
+      --card:#111b2f;\
+      --card2:#0f172a;\
+      --text:#e8eefc;\
+      --muted:#aab7d6;\
+      --line:#223154;\
+      --good:#30d158;\
+      --warn:#ffd60a;\
+      --bad:#ff453a;\
+      --accent:#7aa2ff;\
+      --accent2:#b88cff;\
+      --shadow: 0 10px 30px rgba(0,0,0,.35);\
+      --radius:18px;\
+    \}\
+    *\{box-sizing:border-box\}\
+    body\{\
+      margin:0;\
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;\
+      color:var(--text);\
+      background: radial-gradient(1200px 600px at 20% 10%, rgba(122,162,255,.18), transparent 60%),\
+                  radial-gradient(900px 500px at 90% 0%, rgba(184,140,255,.14), transparent 55%),\
+                  linear-gradient(180deg, #070b14, var(--bg));\
+      min-height:100vh;\
+    \}\
+    header\{\
+      padding:22px 18px 6px;\
+      max-width:1100px;\
+      margin:0 auto;\
+    \}\
+    .title\{\
+      display:flex; gap:12px; align-items:flex-start; justify-content:space-between; flex-wrap:wrap;\
+    \}\
+    h1\{\
+      margin:0;\
+      font-size: clamp(22px, 3vw, 32px);\
+      letter-spacing:.2px;\
+    \}\
+    .subtitle\{\
+      margin:6px 0 0;\
+      color:var(--muted);\
+      line-height:1.4;\
+      max-width: 760px;\
+      font-size: 14px;\
+    \}\
+    .pillrow\{display:flex; gap:10px; flex-wrap:wrap; margin-top:12px\}\
+    .pill\{\
+      background: rgba(255,255,255,.06);\
+      border:1px solid rgba(255,255,255,.08);\
+      padding:8px 10px;\
+      border-radius: 999px;\
+      color: var(--muted);\
+      font-size: 13px;\
+      backdrop-filter: blur(6px);\
+    \}\
+    .container\{\
+      max-width:1100px;\
+      margin:0 auto;\
+      padding:12px 18px 40px;\
+      display:grid;\
+      grid-template-columns: 1.2fr .8fr;\
+      gap:14px;\
+    \}\
+    @media (max-width: 920px)\{\
+      .container\{grid-template-columns: 1fr\}\
+    \}\
+    .card\{\
+      background: linear-gradient(180deg, rgba(255,255,255,.05), rgba(255,255,255,.03));\
+      border:1px solid rgba(255,255,255,.08);\
+      border-radius: var(--radius);\
+      box-shadow: var(--shadow);\
+      padding:16px;\
+    \}\
+    .card h2\{\
+      margin:0 0 10px;\
+      font-size: 16px;\
+      letter-spacing:.2px;\
+      display:flex;\
+      align-items:center;\
+      gap:8px;\
+    \}\
+    .muted\{color:var(--muted)\}\
+    .grid2\{display:grid; grid-template-columns: 1fr 1fr; gap:12px\}\
+    @media (max-width: 520px)\{ .grid2\{grid-template-columns: 1fr\} \}\
+    .stat\{\
+      background: rgba(15,23,42,.55);\
+      border:1px solid rgba(255,255,255,.07);\
+      border-radius: 14px;\
+      padding:12px;\
+    \}\
+    .stat .k\{font-size:12px; color:var(--muted)\}\
+    .stat .v\{font-size:22px; margin-top:4px; font-weight:700\}\
+    .barwrap\{\
+      margin-top:10px;\
+      background: rgba(255,255,255,.06);\
+      border:1px solid rgba(255,255,255,.08);\
+      border-radius: 999px;\
+      overflow:hidden;\
+      height:14px;\
+    \}\
+    .bar\{\
+      height:100%;\
+      width:0%;\
+      background: linear-gradient(90deg, var(--accent), var(--accent2));\
+      transition: width .6s ease;\
+    \}\
+    .row\{\
+      display:flex; align-items:center; justify-content:space-between; gap:10px; flex-wrap:wrap;\
+    \}\
+    .btnrow\{display:flex; gap:10px; flex-wrap:wrap\}\
+    button\{\
+      appearance:none;\
+      border:1px solid rgba(255,255,255,.10);\
+      background: rgba(255,255,255,.06);\
+      color: var(--text);\
+      padding:10px 12px;\
+      border-radius: 12px;\
+      cursor:pointer;\
+      font-weight:600;\
+    \}\
+    button:hover\{background: rgba(255,255,255,.09)\}\
+    button:active\{transform: translateY(1px)\}\
+    input[type="date"], input[type="number"], input[type="text"], textarea, select\{\
+      width:100%;\
+      border-radius: 12px;\
+      border:1px solid rgba(255,255,255,.10);\
+      background: rgba(15,23,42,.55);\
+      color: var(--text);\
+      padding:10px 12px;\
+      outline:none;\
+    \}\
+    textarea\{min-height:92px; resize:vertical\}\
+    .small\{font-size:12px\}\
+    .list\{\
+      display:flex; flex-direction:column; gap:10px;\
+    \}\
+    .item\{\
+      display:flex;\
+      gap:10px;\
+      align-items:flex-start;\
+      padding:12px;\
+      border-radius: 14px;\
+      border:1px solid rgba(255,255,255,.08);\
+      background: rgba(15,23,42,.45);\
+    \}\
+    .item input[type="checkbox"]\{\
+      width:18px; height:18px; margin-top:2px;\
+      accent-color: var(--accent);\
+    \}\
+    .item .label\{flex:1\}\
+    .tag\{\
+      font-size: 11px;\
+      padding:4px 8px;\
+      border-radius: 999px;\
+      border:1px solid rgba(255,255,255,.10);\
+      background: rgba(255,255,255,.06);\
+      color: var(--muted);\
+      white-space:nowrap;\
+    \}\
+    .hr\{height:1px; background: rgba(255,255,255,.08); margin:12px 0\}\
+    .notice\{\
+      border-left: 3px solid var(--accent);\
+      padding:10px 12px;\
+      background: rgba(122,162,255,.10);\
+      border-radius: 12px;\
+      color: var(--text);\
+    \}\
+    .danger\{border-left-color: var(--bad); background: rgba(255,69,58,.10)\}\
+    .warn\{border-left-color: var(--warn); background: rgba(255,214,10,.10)\}\
+    .foot\{\
+      max-width:1100px;\
+      margin:0 auto;\
+      padding:0 18px 28px;\
+      color: var(--muted);\
+      font-size: 12px;\
+      line-height:1.5;\
+    \}\
+    a\{color: var(--accent); text-decoration:none\}\
+    a:hover\{text-decoration:underline\}\
+    .mono\{font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace\}\
+  </style>\
+</head>\
+<body>\
+  <header>\
+    <div class="title">\
+      <div>\
+        <h1>Dashboard Bulan Puasa 2026 \uc0\u55356 \u56818 \u55356 \u56830 </h1>\
+        <p class="subtitle">\
+          Fokus: kiraan hari Ramadan, progress puasa, checklist amalan harian, nota iftar/sahur, dan rekod sedekah \'97 semuanya disimpan automatik dalam pelayar (localStorage).\
+        </p>\
+      </div>\
+      <div class="pillrow">\
+        <div class="pill" id="rangePill">Ramadan 2026: \'97</div>\
+        <div class="pill" id="todayPill">Hari ini: \'97</div>\
+        <div class="pill" id="statusPill">Status: \'97</div>\
+      </div>\
+    </div>\
+  </header>\
+\
+  <main class="container">\
+    <!-- LEFT COLUMN -->\
+    <section class="card">\
+      <h2>\uc0\u55357 \u56517  Ringkasan & Progress</h2>\
+\
+      <div class="grid2">\
+        <div class="stat">\
+          <div class="k">Hari Ramadan (1\'9630)</div>\
+          <div class="v" id="ramadanDay">\'97</div>\
+          <div class="small muted" id="ramadanDayDesc">\'97</div>\
+        </div>\
+        <div class="stat">\
+          <div class="k">Baki hari</div>\
+          <div class="v" id="daysLeft">\'97</div>\
+          <div class="small muted" id="countdownDesc">\'97</div>\
+        </div>\
+      </div>\
+\
+      <div class="hr"></div>\
+\
+      <div class="row">\
+        <div>\
+          <div class="muted small">Progress Ramadan</div>\
+          <div class="small" id="progressLabel">\'97</div>\
+        </div>\
+        <div class="tag" id="phaseTag">\'97</div>\
+      </div>\
+      <div class="barwrap" title="Progress Ramadan">\
+        <div class="bar" id="progressBar"></div>\
+      </div>\
+\
+      <div class="hr"></div>\
+\
+      <div class="notice warn" id="milestoneBox">\
+        <div><b>Milestone</b></div>\
+        <div class="small" id="milestoneText">\'97</div>\
+      </div>\
+\
+      <div class="hr"></div>\
+\
+      <div class="row">\
+        <div style="min-width:220px; flex:1">\
+          <label class="small muted">Tarikh untuk checklist</label>\
+          <input type="date" id="datePicker" />\
+          <div class="small muted" id="dateHint" style="margin-top:6px">\'97</div>\
+        </div>\
+        <div class="btnrow">\
+          <button id="btnToday">Hari Ini</button>\
+          <button id="btnResetDay" title="Kosongkan checklist hari dipilih">Reset Hari</button>\
+        </div>\
+      </div>\
+\
+      <div style="margin-top:12px" class="list" id="checklist">\
+        <!-- checklist injected -->\
+      </div>\
+\
+      <div class="hr"></div>\
+\
+      <div class="grid2">\
+        <div>\
+          <h2 style="margin:0 0 10px">\uc0\u55357 \u56534  Al-Quran (Target)</h2>\
+          <div class="small muted">Cadangan mudah: 20 muka surat sehari (\'b11 juzuk) untuk khatam 30 hari.</div>\
+          <div class="row" style="margin-top:10px">\
+            <div style="flex:1">\
+              <label class="small muted">Muka surat dibaca (hari dipilih)</label>\
+              <input type="number" id="quranPages" min="0" max="200" step="1" placeholder="Contoh: 20" />\
+            </div>\
+            <div class="tag" id="quranTag">\'97</div>\
+          </div>\
+        </div>\
+\
+        <div>\
+          <h2 style="margin:0 0 10px">\uc0\u55357 \u56477  Sedekah (Ringkas)</h2>\
+          <div class="small muted">Catat jumlah harian (RM). Total akan dikira automatik.</div>\
+          <div class="row" style="margin-top:10px">\
+            <div style="flex:1">\
+              <label class="small muted">Jumlah (RM)</label>\
+              <input type="number" id="donationAmt" min="0" step="0.5" placeholder="Contoh: 5" />\
+            </div>\
+            <div class="tag" id="donationTag">\'97</div>\
+          </div>\
+          <div class="small muted" style="margin-top:10px">Jumlah terkumpul Ramadan</div>\
+          <div style="font-size:20px; font-weight:800" id="donationTotal">RM 0.00</div>\
+        </div>\
+      </div>\
+    </section>\
+\
+    <!-- RIGHT COLUMN -->\
+    <aside class="card">\
+      <h2>\uc0\u55357 \u56786 \u65039  Nota Iftar / Sahur / Target</h2>\
+      <label class="small muted">Nota untuk tarikh dipilih</label>\
+      <textarea id="notes" placeholder="Contoh: Menu iftar, grocery list, target zikir, jadual tarawih, dll."></textarea>\
+      <div class="row" style="margin-top:10px">\
+        <div class="small muted" id="savedHint">\'97</div>\
+        <div class="btnrow">\
+          <button id="btnCopy">Salin</button>\
+          <button id="btnClearNotes">Padam Nota</button>\
+        </div>\
+      </div>\
+\
+      <div class="hr"></div>\
+\
+      <h2>\uc0\u55358 \u56813  Penanda Tarikh Penting</h2>\
+      <div class="list">\
+        <div class="item">\
+          <div class="tag">Awal Ramadan</div>\
+          <div class="label">\
+            <div><b>19 Feb 2026</b></div>\
+            <div class="small muted">1 Ramadan 1447H (rujukan takwim Malaysia).</div>\
+          </div>\
+        </div>\
+        <div class="item">\
+          <div class="tag">Nuzul</div>\
+          <div class="label">\
+            <div><b>7 Mac 2026</b></div>\
+            <div class="small muted">Nuzul al-Quran (17 Ramadan).</div>\
+          </div>\
+        </div>\
+        <div class="item">\
+          <div class="tag">10 Akhir</div>\
+          <div class="label">\
+            <div><b id="last10StartLabel">\'97</b></div>\
+            <div class="small muted">Anggaran mula 21 Ramadan (berdasarkan tarikh di atas).</div>\
+          </div>\
+        </div>\
+        <div class="item">\
+          <div class="tag">Aidilfitri</div>\
+          <div class="label">\
+            <div><b>21 Mac 2026</b></div>\
+            <div class="small muted">1 Syawal 1447H.</div>\
+          </div>\
+        </div>\
+      </div>\
+\
+      <div class="hr"></div>\
+\
+      <h2>\uc0\u55358 \u56816  Backup Data</h2>\
+      <div class="small muted">Export untuk simpan/ pindah telefon-laptop. Import untuk restore.</div>\
+      <div class="btnrow" style="margin-top:10px">\
+        <button id="btnExport">Export JSON</button>\
+        <button id="btnImport">Import JSON</button>\
+        <button id="btnWipeAll" title="Padam semua data dashboard">Reset Semua</button>\
+      </div>\
+      <input type="file" id="importFile" accept="application/json" style="display:none" />\
+\
+      <div class="hr"></div>\
+\
+      <div class="notice danger">\
+        <div><b>Nota penting</b></div>\
+        <div class="small">\
+          Tarikh ini berasaskan takwim Malaysia (rujukan rasmi). Dalam amalan, pengumuman rasmi tetap bergantung kepada ketetapan pihak berautoriti.\
+        </div>\
+      </div>\
+    </aside>\
+  </main>\
+\
+  <div class="foot">\
+    <div>\
+      Dibina untuk kegunaan offline. Data disimpan dalam pelayar anda (<span class="mono">localStorage</span>).  \
+      Tarikh rujukan: 1 Ramadan 19 Feb 2026, Nuzul 7 Mac 2026, 1 Syawal 21 Mac 2026.  \
+      Sumber rujukan: Takwim Islam Malaysia (Mufti WP / e-Solat). :contentReference[oaicite:3]\{index=3\}\
+    </div>\
+  </div>\
+\
+<script>\
+(function()\{\
+  // ====== CONFIG (Malaysia 2026) ======\
+  // Based on Malaysia Islamic calendar references:\
+  // 1 Ramadan 1447H = 19 Feb 2026\
+  // 1 Syawal 1447H  = 21 Mar 2026\
+  const RAMADAN_START = new Date("2026-02-19T00:00:00+08:00");\
+  const EID_START     = new Date("2026-03-21T00:00:00+08:00");\
+  // Ramadan days count inferred from 1 Syawal date:\
+  const RAMADAN_DAYS  = daysBetween(RAMADAN_START, EID_START); // should be 30\
+  const RAMADAN_END   = addDays(RAMADAN_START, RAMADAN_DAYS - 1); // last fasting day\
+\
+  // Milestones\
+  const NUZUL_DATE    = new Date("2026-03-07T00:00:00+08:00"); // 17 Ramadan\
+  const LAST10_START  = addDays(RAMADAN_START, 20); // 21 Ramadan (day index 21 => +20)\
+  // ====== STORAGE ======\
+  const KEY = "ramadan_2026_dashboard_v1";\
+\
+  const DEFAULT_TASKS = [\
+    \{ id:"puasa",   label:"Puasa (niat & jaga adab)", tip:"Asas", tag:"Wajib"\},\
+    \{ id:"tarawih", label:"Tarawih / Qiyam",         tip:"Konsisten", tag:"Ibadah"\},\
+    \{ id:"quran",   label:"Tilawah Al-Quran",         tip:"Target harian", tag:"Tilawah"\},\
+    \{ id:"zikir",   label:"Zikir & doa ringkas",      tip:"5\'9610 min", tag:"Rohani"\},\
+    \{ id:"sedekah", label:"Sedekah / bantu orang",    tip:"Walau sedikit", tag:"Kebajikan"\},\
+  ];\
+\
+  // ====== ELEMENTS ======\
+  const el = (id)=>document.getElementById(id);\
+\
+  const rangePill = el("rangePill");\
+  const todayPill = el("todayPill");\
+  const statusPill = el("statusPill");\
+\
+  const ramadanDay = el("ramadanDay");\
+  const ramadanDayDesc = el("ramadanDayDesc");\
+  const daysLeft = el("daysLeft");\
+  const countdownDesc = el("countdownDesc");\
+\
+  const progressBar = el("progressBar");\
+  const progressLabel = el("progressLabel");\
+  const phaseTag = el("phaseTag");\
+\
+  const milestoneText = el("milestoneText");\
+  const last10StartLabel = el("last10StartLabel");\
+\
+  const datePicker = el("datePicker");\
+  const dateHint = el("dateHint");\
+  const checklistWrap = el("checklist");\
+\
+  const quranPages = el("quranPages");\
+  const quranTag = el("quranTag");\
+\
+  const donationAmt = el("donationAmt");\
+  const donationTag = el("donationTag");\
+  const donationTotal = el("donationTotal");\
+\
+  const notes = el("notes");\
+  const savedHint = el("savedHint");\
+\
+  // Buttons\
+  el("btnToday").addEventListener("click", ()=> setPickedDate(toISODate(todayLocal())));\
+  el("btnResetDay").addEventListener("click", resetSelectedDay);\
+  el("btnCopy").addEventListener("click", copyNotes);\
+  el("btnClearNotes").addEventListener("click", ()=> \{ notes.value=""; persistSelected(); \});\
+  el("btnExport").addEventListener("click", exportJSON);\
+  el("btnImport").addEventListener("click", ()=> el("importFile").click());\
+  el("importFile").addEventListener("change", importJSON);\
+  el("btnWipeAll").addEventListener("click", wipeAll);\
+\
+  // ====== INIT ======\
+  const state = loadState();\
+  renderHeader();\
+  renderMilestones();\
+  ensureDatePicked();\
+  renderForPickedDate();\
+  renderSummary();\
+\
+  // Re-render summary every minute (in case date changes)\
+  setInterval(()=> \{ renderHeader(); renderSummary(); \}, 60*1000);\
+\
+  // ====== FUNCTIONS ======\
+  function todayLocal()\{\
+    // Use browser local time (Malaysia assumed by user). Keep date-only stable.\
+    const now = new Date();\
+    return new Date(now.getFullYear(), now.getMonth(), now.getDate());\
+  \}\
+\
+  function toISODate(d)\{\
+    const y = d.getFullYear();\
+    const m = String(d.getMonth()+1).padStart(2,"0");\
+    const day = String(d.getDate()).padStart(2,"0");\
+    return `$\{y\}-$\{m\}-$\{day\}`;\
+  \}\
+\
+  function parseISODate(s)\{\
+    // date-only to local midnight\
+    const [y,m,d] = s.split("-").map(Number);\
+    return new Date(y, m-1, d);\
+  \}\
+\
+  function fmtDate(d)\{\
+    return d.toLocaleDateString("ms-MY", \{ weekday:"short", year:"numeric", month:"short", day:"numeric" \});\
+  \}\
+\
+  function daysBetween(a,b)\{\
+    // whole days between date-only anchors\
+    const ms = (stripTime(b) - stripTime(a));\
+    return Math.round(ms / (24*60*60*1000));\
+  \}\
+\
+  function stripTime(d)\{\
+    return new Date(d.getFullYear(), d.getMonth(), d.getDate()).getTime();\
+  \}\
+\
+  function addDays(d, n)\{\
+    const x = new Date(d);\
+    x.setDate(x.getDate() + n);\
+    return x;\
+  \}\
+\
+  function withinRamadan(date)\{\
+    return stripTime(date) >= stripTime(RAMADAN_START) && stripTime(date) <= stripTime(RAMADAN_END);\
+  \}\
+\
+  function ramadanDayNumber(date)\{\
+    // 1..RAMADAN_DAYS\
+    return daysBetween(RAMADAN_START, date) + 1;\
+  \}\
+\
+  function phaseLabel(dayNum)\{\
+    if(dayNum <= 10) return "10 Awal";\
+    if(dayNum <= 20) return "10 Pertengahan";\
+    return "10 Akhir";\
+  \}\
+\
+  function renderHeader()\{\
+    const t = todayLocal();\
+    rangePill.textContent = `Ramadan: $\{fmtDate(RAMADAN_START)\} \uc0\u8594  $\{fmtDate(RAMADAN_END)\}`;\
+    todayPill.textContent = `Hari ini: $\{fmtDate(t)\}`;\
+\
+    if(stripTime(t) < stripTime(RAMADAN_START))\{\
+      statusPill.textContent = "Status: Sebelum Ramadan";\
+    \}else if(stripTime(t) > stripTime(RAMADAN_END) && stripTime(t) < stripTime(EID_START))\{\
+      statusPill.textContent = "Status: Selepas Ramadan (menunggu Syawal)";\
+    \}else if(stripTime(t) >= stripTime(EID_START))\{\
+      statusPill.textContent = "Status: Syawal & seterusnya";\
+    \}else\{\
+      statusPill.textContent = "Status: Dalam Ramadan";\
+    \}\
+  \}\
+\
+  function renderMilestones()\{\
+    last10StartLabel.textContent = fmtDate(LAST10_START);\
+  \}\
+\
+  function renderSummary()\{\
+    const t = todayLocal();\
+\
+    if(stripTime(t) < stripTime(RAMADAN_START))\{\
+      ramadanDay.textContent = "\'97";\
+      ramadanDayDesc.textContent = `Ramadan bermula pada $\{fmtDate(RAMADAN_START)\}.`;\
+      const left = daysBetween(t, RAMADAN_START);\
+      daysLeft.textContent = left;\
+      countdownDesc.textContent = "Hari lagi menuju 1 Ramadan";\
+      setProgress(0, `0/$\{RAMADAN_DAYS\} hari`, "Belum mula");\
+\
+      milestoneText.textContent = `Fokus persediaan: niat, jadual tidur, menu sahur, dan target amalan.`;\
+      return;\
+    \}\
+\
+    if(stripTime(t) > stripTime(RAMADAN_END))\{\
+      ramadanDay.textContent = "Tamat";\
+      ramadanDayDesc.textContent = `Ramadan berakhir pada $\{fmtDate(RAMADAN_END)\}.`;\
+      daysLeft.textContent = "0";\
+      countdownDesc.textContent = `Aidilfitri: $\{fmtDate(EID_START)\}.`;\
+      setProgress(100, `$\{RAMADAN_DAYS\}/$\{RAMADAN_DAYS\} hari`, "Selesai");\
+\
+      milestoneText.textContent = `Semoga istiqamah selepas Ramadan: kekalkan tilawah, sedekah, dan solat berjemaah.`;\
+      return;\
+    \}\
+\
+    // During Ramadan\
+    const dayNum = ramadanDayNumber(t);\
+    ramadanDay.textContent = `Hari $\{dayNum\}`;\
+    ramadanDayDesc.textContent = `Fasa: $\{phaseLabel(dayNum)\} \'95 $\{fmtDate(t)\}`;\
+\
+    const left = daysBetween(t, addDays(RAMADAN_END, 1));\
+    daysLeft.textContent = left;\
+    countdownDesc.textContent = "Hari lagi hingga tamat Ramadan";\
+\
+    const pct = Math.round((dayNum / RAMADAN_DAYS) * 100);\
+    setProgress(pct, `$\{dayNum\}/$\{RAMADAN_DAYS\} hari`, phaseLabel(dayNum));\
+\
+    // milestone text\
+    const nuzulIn = daysBetween(t, NUZUL_DATE);\
+    const last10In = daysBetween(t, LAST10_START);\
+\
+    let msg = [];\
+    if(nuzulIn === 0) msg.push("Hari ini Nuzul al-Quran.");\
+    else if(nuzulIn > 0 && nuzulIn <= 10) msg.push(`Nuzul al-Quran lagi $\{nuzulIn\} hari ($\{fmtDate(NUZUL_DATE)\}).`);\
+\
+    if(last10In === 0) msg.push("Masuk 10 malam terakhir (21 Ramadan).");\
+    else if(last10In > 0 && last10In <= 12) msg.push(`10 malam terakhir lagi $\{last10In\} hari (mula $\{fmtDate(LAST10_START)\}).`);\
+\
+    if(msg.length === 0) msg.push("Konsistenkan amalan kecil tetapi berterusan.");\
+    milestoneText.textContent = msg.join(" ");\
+  \}\
+\
+  function setProgress(pct, label, phase)\{\
+    progressBar.style.width = `$\{Math.max(0, Math.min(100, pct))\}%`;\
+    progressLabel.textContent = label;\
+    phaseTag.textContent = phase;\
+  \}\
+\
+  function ensureDatePicked()\{\
+    if(!state.selectedDate)\{\
+      state.selectedDate = toISODate(todayLocal());\
+      saveState();\
+    \}\
+    datePicker.value = state.selectedDate;\
+    datePicker.addEventListener("change", ()=>\{\
+      state.selectedDate = datePicker.value;\
+      saveState();\
+      renderForPickedDate();\
+    \});\
+  \}\
+\
+  function setPickedDate(iso)\{\
+    state.selectedDate = iso;\
+    saveState();\
+    datePicker.value = iso;\
+    renderForPickedDate();\
+  \}\
+\
+  function selectedISO()\{\
+    return state.selectedDate || toISODate(todayLocal());\
+  \}\
+\
+  function selectedDateObj()\{\
+    return parseISODate(selectedISO());\
+  \}\
+\
+  function dayKey(iso)\{\
+    return iso;\
+  \}\
+\
+  function ensureDay(iso)\{\
+    state.days ||= \{\};\
+    if(!state.days[iso])\{\
+      state.days[iso] = \{\
+        tasks: Object.fromEntries(DEFAULT_TASKS.map(t=>[t.id,false])),\
+        quranPages: 0,\
+        donationAmt: 0,\
+        notes: ""\
+      \};\
+    \}\
+    // Ensure any newly added tasks exist\
+    for(const t of DEFAULT_TASKS)\{\
+      if(!(t.id in state.days[iso].tasks)) state.days[iso].tasks[t.id] = false;\
+    \}\
+    return state.days[iso];\
+  \}\
+\
+  function renderForPickedDate()\{\
+    const iso = selectedISO();\
+    const d = selectedDateObj();\
+    const inR = withinRamadan(d);\
+    const dayObj = ensureDay(iso);\
+\
+    // hint\
+    if(inR)\{\
+      const n = ramadanDayNumber(d);\
+      dateHint.textContent = `Tarikh dipilih berada dalam Ramadan (Hari $\{n\} / $\{RAMADAN_DAYS\}).`;\
+    \}else\{\
+      dateHint.textContent = `Tarikh dipilih di luar Ramadan (rujukan Ramadan: $\{fmtDate(RAMADAN_START)\} \uc0\u8594  $\{fmtDate(RAMADAN_END)\}).`;\
+    \}\
+\
+    // checklist UI\
+    checklistWrap.innerHTML = "";\
+    for(const t of DEFAULT_TASKS)\{\
+      const row = document.createElement("div");\
+      row.className = "item";\
+\
+      const cb = document.createElement("input");\
+      cb.type = "checkbox";\
+      cb.checked = !!dayObj.tasks[t.id];\
+      cb.addEventListener("change", ()=>\{\
+        dayObj.tasks[t.id] = cb.checked;\
+        saveState();\
+        updateSavedHint();\
+      \});\
+\
+      const label = document.createElement("div");\
+      label.className = "label";\
+      label.innerHTML = `<div><b>$\{escapeHtml(t.label)\}</b></div>\
+                         <div class="small muted">$\{escapeHtml(t.tip || "")\}</div>`;\
+\
+      const tag = document.createElement("div");\
+      tag.className = "tag";\
+      tag.textContent = t.tag || "Amalan";\
+\
+      row.appendChild(cb);\
+      row.appendChild(label);\
+      row.appendChild(tag);\
+      checklistWrap.appendChild(row);\
+    \}\
+\
+    // inputs\
+    quranPages.value = dayObj.quranPages ?? 0;\
+    donationAmt.value = dayObj.donationAmt ?? 0;\
+    notes.value = dayObj.notes ?? "";\
+\
+    quranPages.oninput = ()=> \{\
+      dayObj.quranPages = clampNum(quranPages.value, 0, 9999);\
+      saveState();\
+      renderDonationAndTags();\
+      updateSavedHint();\
+    \};\
+    donationAmt.oninput = ()=> \{\
+      dayObj.donationAmt = clampNum(donationAmt.value, 0, 999999);\
+      saveState();\
+      renderDonationAndTags();\
+      updateSavedHint();\
+    \};\
+    notes.oninput = ()=> \{\
+      dayObj.notes = notes.value;\
+      saveState();\
+      updateSavedHint();\
+    \};\
+\
+    renderDonationAndTags();\
+    updateSavedHint();\
+  \}\
+\
+  function persistSelected()\{\
+    const iso = selectedISO();\
+    const dayObj = ensureDay(iso);\
+    dayObj.quranPages = clampNum(quranPages.value, 0, 9999);\
+    dayObj.donationAmt = clampNum(donationAmt.value, 0, 999999);\
+    dayObj.notes = notes.value;\
+    saveState();\
+    renderDonationAndTags();\
+    updateSavedHint();\
+  \}\
+\
+  function renderDonationAndTags()\{\
+    const iso = selectedISO();\
+    ensureDay(iso);\
+\
+    // Tags for selected day\
+    const p = clampNum(quranPages.value, 0, 9999);\
+    quranTag.textContent = p >= 20 ? "On track \uc0\u9989 " : (p > 0 ? "Sedang jalan" : "Belum");\
+    const a = clampNum(donationAmt.value, 0, 999999);\
+    donationTag.textContent = a > 0 ? "Ada rekod \uc0\u9989 " : "\'97";\
+\
+    // Total donation within Ramadan range\
+    let total = 0;\
+    for(const [k,v] of Object.entries(state.days || \{\}))\{\
+      const d = parseISODate(k);\
+      if(withinRamadan(d))\{\
+        total += Number(v.donationAmt || 0);\
+      \}\
+    \}\
+    donationTotal.textContent = `RM $\{total.toFixed(2)\}`;\
+  \}\
+\
+  function resetSelectedDay()\{\
+    const iso = selectedISO();\
+    state.days ||= \{\};\
+    delete state.days[iso];\
+    saveState();\
+    renderForPickedDate();\
+  \}\
+\
+  function updateSavedHint()\{\
+    const iso = selectedISO();\
+    const now = new Date();\
+    savedHint.textContent = `Disimpan: $\{fmtTime(now)\} \'95 Tarikh: $\{iso\}`;\
+  \}\
+\
+  function fmtTime(d)\{\
+    return d.toLocaleTimeString("ms-MY", \{ hour:"2-digit", minute:"2-digit" \});\
+  \}\
+\
+  function copyNotes()\{\
+    navigator.clipboard?.writeText(notes.value || "")\
+      .then(()=>\{ savedHint.textContent = "Nota disalin ke clipboard \uc0\u9989 "; setTimeout(updateSavedHint, 1200); \})\
+      .catch(()=>\{ alert("Tak dapat salin (clipboard tidak dibenarkan oleh pelayar)."); \});\
+  \}\
+\
+  function exportJSON()\{\
+    const data = JSON.stringify(state, null, 2);\
+    const blob = new Blob([data], \{type:"application/json"\});\
+    const url = URL.createObjectURL(blob);\
+    const a = document.createElement("a");\
+    a.href = url;\
+    a.download = "ramadan-dashboard-2026-backup.json";\
+    document.body.appendChild(a);\
+    a.click();\
+    a.remove();\
+    URL.revokeObjectURL(url);\
+  \}\
+\
+  function importJSON(ev)\{\
+    const file = ev.target.files?.[0];\
+    if(!file) return;\
+    const reader = new FileReader();\
+    reader.onload = ()=>\{\
+      try\{\
+        const incoming = JSON.parse(reader.result);\
+        if(typeof incoming !== "object" || !incoming) throw new Error("Format tidak sah");\
+        // minimal merge\
+        state.selectedDate = incoming.selectedDate || state.selectedDate;\
+        state.days = incoming.days || incoming.data || incoming;\
+        saveState();\
+        ensureDatePicked();\
+        renderForPickedDate();\
+        renderSummary();\
+        alert("Import berjaya \uc0\u9989 ");\
+      \}catch(e)\{\
+        alert("Import gagal: " + (e?.message || e));\
+      \}finally\{\
+        ev.target.value = "";\
+      \}\
+    \};\
+    reader.readAsText(file);\
+  \}\
+\
+  function wipeAll()\{\
+    if(!confirm("Reset semua data dashboard?")) return;\
+    localStorage.removeItem(KEY);\
+    location.reload();\
+  \}\
+\
+  function clampNum(x, min, max)\{\
+    const n = Number(x);\
+    if(Number.isNaN(n)) return min;\
+    return Math.max(min, Math.min(max, n));\
+  \}\
+\
+  function escapeHtml(s)\{\
+    return String(s).replace(/[&<>"']/g, (c)=>(\{\
+      "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#039;"\
+    \}[c]));\
+  \}\
+\
+  function loadState()\{\
+    try\{\
+      const raw = localStorage.getItem(KEY);\
+      if(!raw) return \{ selectedDate:null, days:\{\} \};\
+      const obj = JSON.parse(raw);\
+      if(typeof obj !== "object" || !obj) return \{ selectedDate:null, days:\{\} \};\
+      obj.days ||= \{\};\
+      return obj;\
+    \}catch\{\
+      return \{ selectedDate:null, days:\{\} \};\
+    \}\
+  \}\
+\
+  function saveState()\{\
+    localStorage.setItem(KEY, JSON.stringify(state));\
+  \}\
+\})();\
+</script>\
+</body>\
+</html>}
